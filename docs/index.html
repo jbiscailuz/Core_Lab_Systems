@@ -6,13 +6,25 @@
 
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
+  <!-- Javascript / JQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  <script>
+	$( function() {
+	  $( ".codeheart" ).draggable();
+	} );
+	</script>
+
 	<!-- CSS -->
 	<style type="text/css">
-		main { max-width: 1500px; }
-		section { max-width: 1000px; margin: 10px auto; padding: 0 20px; }
+
+	main { max-width: 1500px; }
+	section { max-width: 1000px; margin: 10px auto; padding: 0 20px; }
     h1 { font-family: 'Lobster', cursive; font-size: 50px; text-align: center;}
-    #codeheart { max-width: 500px; position: center;}
+    .codeheart { max-width: 500px; position: center;}
 	</style>
+
 	</head>
 <!-- body -->
 <body>
@@ -23,7 +35,7 @@
 		<h1>Jo Biscailuz</h1>
 	</header>
 
-	 <img  id="codeheart" src="images/codeheart.png"/>
+	 <img  class="codeheart" src="images/codeheart.png"/>
 
 </section>
 
