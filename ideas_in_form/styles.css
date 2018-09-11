@@ -1,0 +1,166 @@
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  margin-left: 2%;
+  margin-top: 5px;
+  z-index: 1;
+  color: #fff783;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  z-index: 2;
+  margin-top: -75px;
+  margin-left: 2%;
+  color: #ffa1bb;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  line-height: 2;
+}
+
+.ResearchLinks li {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  color: #ffa1bb;
+}
+
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #323a3d;
+  /* text-align: justify; */
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  color: #323a3d;
+  /* text-align: justify; */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff783;
+  text-decoration: none;
+}
+
+a:visited {
+  color:  #ffa1bb;
+  text-decoration: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* div boxes */
+
+.allDivs {
+  margin: auto;
+}
+
+.ResearchStatement {
+  height: 20%;
+  width: 40%;
+  border: 2px solid #0c8db2;
+  padding:20px;
+  /* margin: auto; */
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ResearchStatement h3 {
+  color: #0c8db2;
+}
+
+.TopicScope {
+  height: 10%;
+  width: 30%;
+  padding:20px;
+  margin-left: 51%;
+  margin-top: -197px;
+  margin-bottom: 20px;
+  border: 2px solid #0c8db2;
+}
+
+.TopicScope h3 {
+  color: #0c8db2;
+}
+
+.ResearchLinks {
+  height:90%;
+  width: 40%;
+  padding: 20px;
+  /* margin: auto; */
+  margin-left: 5%;
+  margin-top: -120px;
+  margin-bottom: 20px;
+  border: 2px solid #0c8db2;
+
+}
+
+.ResearchLinks h3 {
+  color: #0c8db2;
+}
+
+.GooglePresentation {
+  height:90%;
+  width: 40%;
+  padding: 20px;
+  /* margin: auto; */
+  margin-left: 51%;
+  margin-top: 33px;
+  margin-bottom: 20px;
+  border: 2px solid #0c8db2;
+}
+
+
+.ConceptMap {
+  height: 20%;
+  width: 40%;
+  padding:20px;
+  margin-top: -2550px;
+  margin-left: 51%;
+  margin-bottom: 20px;
+  border: 2px solid #0c8db2;
+}
+
+.ConceptMap h3 {
+  color: #0c8db2;
+}
+
+
+/* slides */
+
+.active {
+  background-color: #fff783;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
