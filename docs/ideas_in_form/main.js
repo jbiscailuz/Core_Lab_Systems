@@ -25,4 +25,5 @@ $( function() {
       $( "#draggable3" ).draggable();
       $( "#draggable4" ).draggable();
       $( "#draggable5" ).draggable();
+      $( "#draggable6" ).draggable();
   } );

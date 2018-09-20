@@ -125,6 +125,17 @@ img {
   border: 2px solid #0c8db2;
 }
 
+.Study2D {
+  height:90%;
+  width: 40%;
+  padding: 20px;
+  /* margin: auto; */
+  margin-left: 51%;
+  margin-top: 33px;
+  margin-bottom: 20px;
+  border: 2px solid #0c8db2;
+}
+
 
 .ConceptMap {
   height: 20%;
